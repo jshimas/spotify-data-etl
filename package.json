@@ -1,0 +1,27 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/pg": "^8.10.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.450.0",
+    "@aws-sdk/lib-storage": "^3.454.0",
+    "@types/pg-copy-streams": "^1.2.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3",
+    "pg-copy-streams": "^6.0.6"
+  }
+}
